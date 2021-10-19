@@ -47,7 +47,7 @@ namespace rviz
  * Splitting this transform lookup is necessary to mitigate frame jitter.
  */
 
-std::string const AerialMapDisplay::MAP_FRAME = "map";
+std::string const AerialMapDisplay::MAP_FRAME = "world_enu";
 
 AerialMapDisplay::AerialMapDisplay() : Display()
 {
